@@ -1,0 +1,13 @@
+body {
+    background: LightSteelBlue;
+    font-family: 'Gill Sans', 'Gill Sans MT',Cambria;
+}
+
+header {
+    background-color: lightcoral;
+    height: 50px;
+    width: 10px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px dashed black;
+}
