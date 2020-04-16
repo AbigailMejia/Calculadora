@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+    <title>Calculadora Web</title>
+
+</head>
+<body>
+    <div align="center">
+        <h1>Calculadora</h1>
+
+
+        <p>En esta página web encontraras una calculadora que incluye funciones matemáticas simples</p>
+
+    </div>
+
+    <form method="post" action="calcular.php" align="center">
+        <label for=" n1">Valor 1</label>
+        <input type="text" name="n1" id="n1" placeholder="Ingrese el primer valor" />
+        <br><br>
+        <label for=" n2">Valor 2</label>
+        <input type="text" name="n2" id="n2" placeholder="Ingrese el segundo valor" />
+        <br><br>
+        <select name="operación">
+            <option value="suma">SUMA</option>
+            <option value="resta">RESTA</option>
+            <option value="multiplicación">MULTIPLICACIÓN</option>
+            <option value="división">DIVISIÓN</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Calcular" />
+
+
+
+    </form>
+</body>
+
+</html>
