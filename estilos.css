@@ -1,22 +1,25 @@
-body {
-    background-color:lightgoldenrodyellow  ;
-   font-family:'Century Gothic';
+body
+{
+    background-color : lightgoldenrodyellow;
+    font-family: 'Century Gothic';
 }
 
-h1 {
-    background-color: aliceblue;
+h1 
+{
+    background-color : aliceblue;
     height: 50px;
+    width: 200px;
+    text-align:center;
+    color:black;
+    border: 1px groove black;
+}
+
+form 
+{
+    background-color: mistyrose;
+    height: 250px;
     width: 200px;
     text-align: center;
     color: black;
-    border: 2px groove white;
-}
-form 
-{
-    background-color: mistyrose  ;
-altura: 550px;
-    ancho: 300px;
-    alinear texto : centro;
-    color: black;
-    border: 2px groove white;
+    border: 1px groove black;
 }
