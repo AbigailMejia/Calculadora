@@ -3,6 +3,12 @@ body
     background-color : lightgoldenrodyellow;
     font-family: 'Century Gothic';
 }
+#contenedor
+{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
 
 h1 
 {

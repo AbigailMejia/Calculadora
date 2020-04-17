@@ -10,23 +10,26 @@
         <h1>Calculadora</h1>
     </div>
 
-    <form method="post" action="Calcular.php" align="center">
-        <label for=" n1">Valor 1</label>
-        <input type="text" name="n1" id="n1" placeholder="Ingrese el primer valor" />
-        <br><br>
-        <label for=" n2">Valor 2</label>
-        <input type="text" name="n2" id="n2" placeholder="Ingrese el segundo valor" />
-        <br><br>
-        <select name="operación">
-            <option value="suma">SUMA</option>
-            <option value="resta">RESTA</option>
-            <option value="multiplicación">MULTIPLICACIÓN</option>
-            <option value="división">DIVISIÓN</option>
-        </select>
-        <br><br>
-        <input type="submit" value="Calcular" />
+    <div id="contenedor">
+        <form method="post" action="Calcular.php" align="center">
+            <label for=" n1">Valor 1</label>
+            <input type="text" name="n1" id="n1" placeholder="Ingrese el primer valor" />
+            <br><br>
+            <label for=" n2">Valor 2</label>
+            <input type="text" name="n2" id="n2" placeholder="Ingrese el segundo valor" />
+            <br><br>
+            <select name="operación">
+                <option value="suma">SUMA</option>
+                <option value="resta">RESTA</option>
+                <option value="multiplicación">MULTIPLICACIÓN</option>
+                <option value="división">DIVISIÓN</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Calcular" />
 
-    </form>
+        </form>
+    </div>
+
     <footer>
         Ligia Castillo y Abigail Mejia &copy; 2020
     </footer>
