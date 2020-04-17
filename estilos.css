@@ -5,8 +5,8 @@ body
 }
 #contenedor
 {
-    width: 1100px;
-    margin: 0px auto;
+    width: 300px;
+    margin: 111px auto;
     border: 1px solid black;
 }
 
@@ -14,18 +14,25 @@ h1
 {
     background-color : aliceblue;
     height: 50px;
-    width: 200px;
+    width: 300px;
     text-align:center;
     color:black;
     border: 1px groove black;
+    margin: 100px auto;
 }
 
 form 
 {
     background-color: mistyrose;
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     text-align: center;
     color: black;
-    border: 1px groove black;
+    border: 0px groove black;
+}
+#contenedor1
+{
+    width: 300px;
+    margin: 0px auto;
+    border: 0px solid black;
 }
