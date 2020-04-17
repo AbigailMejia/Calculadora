@@ -7,28 +7,28 @@ $total=$valor1+$valor2;
 
 echo "el resultado es: ".$total;
 
-if (comparar=="suma") 
+if (comparar=='1') 
 {
  $total=$valor1+$valor2;
 
 echo "el resultado es: ".$total;
 }
 
-else if (comparar=="resta") 
+else if (comparar=='2') 
 {
  $total=$valor1-$valor2;
 
 echo "el resultado es: ".$total;
 }
 
-else if (comparar=="multiplicación") 
+else if (comparar=='3') 
 {
  $total=$valor1*$valor2;
 
 echo "el resultado es: ".$total;
 }
 
-else if (comparar=="DIVISIÓN") 
+else if (comparar=='4') 
 {
  $total=$valor1/$valor2;
 
