@@ -36,3 +36,13 @@ form
     margin: 0px auto;
     border: 0px solid black;
 }
+#Resultado
+{
+    background-color: aliceblue;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    border: 1px groove black;
+    margin: 100px auto;
+}
